@@ -98,7 +98,7 @@ dtype Stack::pop()
 	if(size_ == 0)
 		{
 		std::cout << "***Stack is empty***\n";
-		return 0.1;
+		return 0;
 		}
 	return data_[--size_];
 	}
